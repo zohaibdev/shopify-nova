@@ -1,0 +1,72 @@
+<div class="page-width">
+  <div class="guide-hero__wrapper">
+    <div class="guide-hero__content">
+      {% if section.settings.eyebrow %}
+        <h4 class="guide-hero__eyebrow">{{ section.settings.eyebrow }}</h4>
+      {% endif %}
+      {% if section.settings.kicker %}
+        <span class="guide-hero__kicker">{{ section.settings.kicker }}</span>
+      {% endif %}
+      {% if section.settings.heading %}
+        {% if section.settings.is_heading_h1 %}
+          <h1 class="guide-hero__heading">{{ section.settings.heading }}</h1>
+        {% else %}
+          <h2 class="guide-hero__heading">{{ section.settings.heading }}</h2>
+        {% endif %}
+      {% endif %}
+      {% if section.settings.description %}
+        <p class="guide-hero__description">{{ section.settings.description }}</p>
+      {% endif %}
+    </div>
+    <div class="guide-hero__shape" aria-hidden="true">
+      <svg width="734" height="402" viewBox="0 0 734 402" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M710.031 387.158L723.569 401.022L733.138 378.966M723.652 399.977C717.906 318.914 689.286 241.143 641.113 175.694C592.94 110.245 527.191 59.8016 451.5 30.2208C375.808 0.640026 293.279 -6.86486 213.493 8.57742C133.708 24.0197 59.9383 61.7757 0.75 117.462L1.77835 118.555C60.7599 63.0633 134.271 25.4391 213.779 10.0508C293.286 -5.33753 375.527 2.14114 450.954 31.6186C526.381 61.096 591.9 111.363 639.904 176.584C687.909 241.804 716.429 319.303 722.155 400.083L723.652 399.977Z" stroke="#1E395E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ND Guide Hero",
+  "tag": "section",
+  "class": "section guide-hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Microneedling 101"
+    },
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Start here."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "New to microneedling?"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_heading_h1",
+      "label": "Use heading as page title (H1)",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Microneedling is a customizable skincare technique designed to support smoother, more refined-looking skin. This guide explains what it is, why people use it, how the device and cartridge work together, and what you need to know before getting started."
+    }
+  ],
+  "presets": [
+    {
+      "name": "ND Guide Hero"
+    }
+  ]
+}
+{% endschema %}

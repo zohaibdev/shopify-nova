@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "nd_faq_home": {
+      "type": "nd-faq",
+      "blocks": {
+        "faq_hm01": {
+          "type": "faq",
+          "settings": {
+            "open": true,
+            "question": "What makes Nuovaderm products different?",
+            "answer": "Nuovaderm products are thoughtfully formulated with quality ingredients to support simple, effective skincare and body-care routines. Our formulas focus on hydration, nourishment, and healthy-looking skin, with options designed with sensitive skin in mind."
+          }
+        },
+        "faq_hm02": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Are Nuovaderm products suitable for sensitive skin?",
+            "answer": "Many Nuovaderm products are formulated with sensitive skin in mind, including gentle, fragrance-free options. Because every person’s skin is different, always review the ingredients and directions for the individual product and patch test before first use."
+          }
+        },
+        "faq_hm03": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "How do i choose the right Nuovaderm product for my skin?",
+            "answer": "Each product page explains the key ingredients, benefits, and recommended use to help you choose. If you’re unsure, contact us and we’ll be happy to help you find the best option for your skincare needs."
+          }
+        },
+        "faq_hm04": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What is microneedling?",
+            "answer": "Microneedling is a skincare technique that uses very fine needles to create tiny, controlled microchannels in the skin. This process supports the skin’s natural renewal response and is commonly used as part of a routine focused on improving the overall appearance and texture of the skin."
+          }
+        },
+        "faq_hm05": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What are the benefits of microneedling?",
+            "answer": "Microneedling can help improve the appearance of uneven texture, fine lines, enlarged-looking pores, uneven tone, and the appearance of acne scars. With appropriate use, it can help skin look smoother, firmer, and more refreshed over time."
+          }
+        },
+        "faq_hm06": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Does microneedling hurt?",
+            "answer": "Sensation varies depending on needle depth, treatment area, and individual sensitivity. Many people describe the feeling as prickling or scratching rather than pain, although deeper settings can feel more intense. Always follow the instructions provided with your device."
+          }
+        },
+        "faq_zF7Wkw": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Are your Dr. Pen products genuine?",
+            "answer": "Yes. Nuovaderm is an authorized distributor of genuine Dr. Pen products. Counterfeit and unauthorized Dr. Pen products exist in the marketplace, which is why authenticity matters. Our Dr. Pen devices can be verified using the unique security code provided on the packaging, giving you an additional way to confirm your product is genuine."
+          }
+        },
+        "faq_8aaPkJ": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Which Dr. Pen cartridge do i need?",
+            "answer": "The correct cartridge depends on your Dr. Pen model and intended use. Compatibility information is provided on our product pages. If you’re unsure which cartridge to purchase, contact us and we’ll be happy to help you choose the correct one."
+          }
+        },
+        "faq_JQfgtY": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "When will my order ship?",
+            "answer": "Orders are dispatched the same day, with tracking information sent as soon as your order is on the way."
+          }
+        },
+        "faq_MXALrM": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What if i’m not satisfied with my purchase?",
+            "answer": "Not completely satisfied? Return your purchase within 30 days for a full refund. We offer free returns and exchanges. If your order arrives damaged or defective, contact us at info@nuovadermbeauty.com, and we’ll make it right."
+          }
+        }
+      },
+      "block_order": [
+        "faq_hm01",
+        "faq_hm02",
+        "faq_hm03",
+        "faq_hm04",
+        "faq_hm05",
+        "faq_hm06",
+        "faq_zF7Wkw",
+        "faq_8aaPkJ",
+        "faq_JQfgtY",
+        "faq_MXALrM"
+      ],
+      "name": "ND FAQ",
+      "settings": {
+        "is_heading_h1": false,
+        "eyebrow": "FAQs",
+        "heading": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "nd_faq_home"
+  ]
+}

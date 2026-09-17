@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "guide_hero": {
+      "type": "nd-guide-hero",
+      "name": "ND Guide Hero",
+      "settings": {
+        "eyebrow": "Microneedling 101",
+        "kicker": "Start here.",
+        "heading": "New to microneedling?",
+        "is_heading_h1": true,
+        "description": "Microneedling is a customizable skincare technique designed to support smoother, more refined-looking skin. This guide explains what it is, why people use it, how the device and cartridge work together, and what you need to know before getting started."
+      }
+    },
+    "guide_content": {
+      "type": "nd-guide-content",
+      "blocks": {
+        "what_is": {
+          "type": "text",
+          "settings": {
+            "heading": "What Is Microneedling?",
+            "content": "<p>Microneedling uses a pen fitted with a disposable cartridge containing very small needles. As the device moves across the skin, the cartridge creates controlled microchannels at the skin’s surface as part of a cosmetic skincare routine.</p>"
+          }
+        },
+        "concerns": {
+          "type": "media_list",
+          "settings": {
+            "heading": "What Can Microneedling Help Improve The Appearance Of?",
+            "content": "",
+            "items": "Fine lines\nUneven-looking skin texture\nEnlarged-looking pores\nDull or tired-looking skin\nUneven-looking tone\nSkin that appears less smooth or firm",
+            "image_alt": "Close-up comparison of skin texture and tone",
+            "caption": ""
+          }
+        },
+        "how_it_works": {
+          "type": "steps",
+          "settings": {
+            "heading": "How Does It Work?",
+            "content": "",
+            "items": "Choose your Dr. Pen\nChoose a compatible cartridge\nCleanse and prepare the skin\nUse the device according to the instructions for your model\nFollow with a simple, gentle skincare routine"
+          }
+        },
+        "pen_and_cartridge": {
+          "type": "text",
+          "settings": {
+            "heading": "Understanding the Pen and Cartridge",
+            "content": "<p>The Dr. Pen is the reusable device. The cartridge is the disposable tip that attaches to the pen. Different devices use different compatible cartridges.</p><p>Always use a new compatible cartridge for each session. Cartridges are intended for single use only.</p>"
+          }
+        },
+        "routine": {
+          "type": "text",
+          "settings": {
+            "heading": "What Should I Use With My Routine?",
+            "content": "<p>Keep your skincare simple and gentle.</p><p>During use, only use a glide or skincare product that is specifically appropriate for microneedling and follow the instructions provided with your device or product. Do not assume that every facial serum is suitable for use during microneedling.</p><p>Afterward, focus on gentle hydration and barrier support. A simple, fragrance-free moisturizer can help keep the skin comfortable and hydrated.</p><p>Avoid harsh exfoliants, strong acids, retinoids, or irritating products immediately after your routine.</p>"
+          }
+        },
+        "protect": {
+          "type": "callout",
+          "settings": {
+            "heading": "Protect Your Skin",
+            "content": "<p>Freshly treated skin can be more sensitive. Keep the routine gentle and use broad-spectrum sunscreen during the day.</p>"
+          }
+        },
+        "cta_choose": {
+          "type": "cta",
+          "settings": {
+            "color_scheme": "light",
+            "heading": "New to Microneedling?",
+            "description": "Not sure which device is right for you? We make it simple.",
+            "button_label": "Choose Your Dr. Pen",
+            "button_link": "shopify://pages/choose-your-dr-pen"
+          }
+        },
+        "important": {
+          "type": "callout",
+          "settings": {
+            "heading": "Important to Know",
+            "content": "<p>Always follow the instructions included with your device. Maintain proper hygiene, use a new cartridge for every session, and avoid microneedling irritated, injured, infected, or otherwise compromised skin.</p>"
+          }
+        },
+        "cta_start": {
+          "type": "cta",
+          "settings": {
+            "color_scheme": "dark",
+            "heading": "Ready to Get Started?",
+            "description": "Find the Dr. Pen that fits your experience level and skincare routine.",
+            "button_label": "Find Your Dr. Pen",
+            "button_link": "shopify://pages/choose-your-dr-pen"
+          }
+        }
+      },
+      "block_order": [
+        "what_is",
+        "concerns",
+        "how_it_works",
+        "pen_and_cartridge",
+        "routine",
+        "protect",
+        "cta_choose",
+        "important",
+        "cta_start"
+      ],
+      "name": "ND Guide Content",
+      "settings": {}
+    }
+  },
+  "order": [
+    "guide_hero",
+    "guide_content"
+  ]
+}

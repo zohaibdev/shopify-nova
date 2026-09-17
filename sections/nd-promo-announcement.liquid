@@ -1,0 +1,248 @@
+{%- comment -%}
+  Nuovaderm promotional announcement bar.
+
+  Sits in the header group directly beneath the header. The whole bar is one
+  link so the entire strip is a tap target on touch devices. It deliberately
+  points at the general "Choose Your Dr. Pen" page rather than an individual
+  device, because the free Adjustable Derma Stamp ships with the Best Value
+  bundle on more than one device.
+{%- endcomment -%}
+
+{%- liquid
+  assign promo_text = section.settings.text
+
+  assign promo_link = section.settings.link
+  if promo_link == blank
+    assign fallback_page = pages[section.settings.fallback_page_handle]
+    if fallback_page != blank and fallback_page.url != blank
+      assign promo_link = fallback_page.url
+    else
+      assign promo_link = '/pages/' | append: section.settings.fallback_page_handle
+    endif
+  endif
+-%}
+
+{%- if promo_text != blank -%}
+  <div class="nd-promo nd-promo--{{ section.settings.color_style }}">
+    <a
+      class="nd-promo__link"
+      href="{{ promo_link }}"
+      {% if section.settings.link_title != blank %}
+        aria-label="{{ section.settings.link_title | escape }}"
+      {% endif %}
+    >
+      <span class="nd-promo__inner">
+        {%- if section.settings.show_icon -%}
+          <span class="nd-promo__icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 0C11.3132 4.87717 15.1228 8.68683 20 10C15.1228 11.3132 11.3132 15.1228 10 20C8.68683 15.1228 4.87717 11.3132 0 10C4.87717 8.68683 8.68683 4.87717 10 0Z" fill="currentColor"/>
+            </svg>
+          </span>
+        {%- endif -%}
+        <span class="nd-promo__text">{{ promo_text }}</span>
+        <span class="nd-promo__arrow" aria-hidden="true">
+          <svg viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.4041 8.70137L16.477 4.62839L12.4041 0.55542M16.477 4.62839H0.55542" stroke="currentColor" stroke-width="1.11081" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </span>
+    </a>
+  </div>
+{%- endif -%}
+
+{%- style -%}
+  .nd-promo {
+    /* Own stacking context, never wider than the viewport. */
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .nd-promo--gradient {
+    background: var(--gradient, linear-gradient(90deg, #1e395e 0%, #4b607d 100%));
+  }
+
+  .nd-promo--solid {
+    background: var(--py, #1e395e);
+  }
+
+  .nd-promo--accent {
+    background: var(--sy, #7e3823);
+  }
+
+  .nd-promo__link {
+    display: block;
+    width: 100%;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    color: var(--white, #fff);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .nd-promo__link:hover,
+  .nd-promo__link:focus-visible {
+    color: var(--white, #fff);
+    opacity: 0.92;
+  }
+
+  .nd-promo__link:focus-visible {
+    outline: 2px solid var(--white, #fff);
+    outline-offset: -4px;
+  }
+
+  /* Laid out as inline flow rather than flex so that when the text wraps on a
+     narrow screen the icon and arrow stay in the run of text instead of being
+     pushed onto lines of their own. */
+  .nd-promo__inner {
+    display: block;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--body-font, inherit);
+    font-size: 15px;
+    line-height: 1.45;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    /* Wrap naturally on narrow screens instead of clipping or overflowing. */
+    overflow-wrap: break-word;
+  }
+
+  .nd-promo__icon,
+  .nd-promo__arrow {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .nd-promo__icon {
+    margin-right: 8px;
+  }
+
+  .nd-promo__arrow {
+    margin-left: 8px;
+  }
+
+  .nd-promo__icon svg {
+    width: 12px;
+    height: 12px;
+    opacity: 0.85;
+  }
+
+  .nd-promo__arrow svg {
+    width: 16px;
+    height: 9px;
+    transition: transform 0.2s ease;
+  }
+
+  .nd-promo__link:hover .nd-promo__arrow svg,
+  .nd-promo__link:focus-visible .nd-promo__arrow svg {
+    transform: translateX(3px);
+  }
+
+  @media screen and (max-width: 989px) {
+    .nd-promo__link {
+      padding: 10px 18px;
+    }
+
+    .nd-promo__inner {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .nd-promo__link {
+      padding: 9px 14px;
+    }
+
+    .nd-promo__inner {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .nd-promo__icon {
+      margin-right: 6px;
+    }
+
+    .nd-promo__arrow {
+      margin-left: 6px;
+    }
+
+    .nd-promo__icon svg {
+      width: 11px;
+      height: 11px;
+    }
+
+    .nd-promo__arrow svg {
+      width: 14px;
+      height: 8px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .nd-promo__arrow svg {
+      transition: none;
+    }
+
+    .nd-promo__link:hover .nd-promo__arrow svg,
+    .nd-promo__link:focus-visible .nd-promo__arrow svg {
+      transform: none;
+    }
+  }
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "ND Promo Announcement",
+  "tag": "section",
+  "class": "nd-promo-section",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Announcement text",
+      "default": "FREE Adjustable Derma Stamp with Best Value Bundle — While Supplies Last"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link",
+      "info": "Leave empty to use the Choose Your Dr. Pen page."
+    },
+    {
+      "type": "text",
+      "id": "fallback_page_handle",
+      "label": "Fallback page handle",
+      "default": "choose-your-dr-pen",
+      "info": "Used when no link is set above."
+    },
+    {
+      "type": "text",
+      "id": "link_title",
+      "label": "Link accessible label",
+      "default": "Choose Your Dr. Pen"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show sparkle icon",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "color_style",
+      "label": "Background",
+      "options": [
+        { "value": "gradient", "label": "Brand gradient" },
+        { "value": "solid", "label": "Solid navy" },
+        { "value": "accent", "label": "Accent" }
+      ],
+      "default": "gradient"
+    }
+  ]
+}
+{% endschema %}

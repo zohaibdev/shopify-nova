@@ -1,0 +1,530 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "Nuovaderm · Advanced",
+            "text_style": "body",
+            "extra_classes": "prd-vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "extra_classes": "prd-price"
+          }
+        },
+        "text_yrL6PA": {
+          "type": "text",
+          "settings": {
+            "text": "Designed for safe at-home use.",
+            "text_style": "body",
+            "extra_classes": ""
+          }
+        },
+        "plan_selector_pHBxJD": {
+          "type": "plan_selector",
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "popular_badge_label": "BEST VALUE",
+            "layout": "list",
+            "show_image": false,
+            "extra_classes": ""
+          }
+        },
+        "addon_products_MYMjat": {
+          "type": "addon_products",
+          "disabled": true,
+          "settings": {
+            "addon_product": "{{ product.metafields.custom.bunlde_addon_product.value }}",
+            "selection_mode": "single",
+            "heading": "",
+            "subheading": "",
+            "main_product_title": "M8 Essential",
+            "this_product_content": "{{ product.metafields.custom.variation_box_content | metafield_tag }}",
+            "addon_title": "Results Bundle",
+            "addon_content": "{{ block.settings.addon_product.metafields.custom.variation_box_content | metafield_tag }}",
+            "badge_label": "Most Popular",
+            "layout": "grid",
+            "show_image": false,
+            "button_label": "Add To Cart",
+            "show_button_price": true,
+            "extra_classes": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "extra_classes": ""
+          }
+        },
+        "icon_with_text_Nx434z": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/icon-1.svg",
+            "heading_1": "Fast Shipping",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/icon-2.svg",
+            "heading_2": "30-Day Money-Back Guarantee",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/icon-3.svg",
+            "heading_3": "Secure Checkout",
+            "icon_4": "heart",
+            "image_4": "shopify://shop_images/icon-4.svg",
+            "heading_4": "Authorized Distributor"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "text_yrL6PA",
+        "plan_selector_pHBxJD",
+        "addon_products_MYMjat",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "icon_with_text_Nx434z"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "nd_anatomy_gBcrDj": {
+      "type": "nd-anatomy",
+      "disabled": true,
+      "name": "Anatomy",
+      "settings": {
+        "image": "shopify://shop_images/Gemini_Generated_Image_nqxmaknqxmaknqxm.jpg",
+        "subtitle": "Anatomy",
+        "title": "Built for real skin results, not guesswork.",
+        "content": "Every feature of the M8S is designed to give you greater control, precision, and flexibility for a more customized at-home skincare routine.",
+        "button_label": "Find Your Routine",
+        "button_link": ""
+      }
+    },
+    "nd_authenticity_MFc4Ey": {
+      "type": "nd-authenticity",
+      "blocks": {
+        "step_yXp74G": {
+          "type": "step",
+          "settings": {
+            "label": "Scratch"
+          }
+        },
+        "step_qqXL9x": {
+          "type": "step",
+          "settings": {
+            "label": "Verify"
+          }
+        },
+        "step_TX4d77": {
+          "type": "step",
+          "settings": {
+            "label": "Confirm"
+          }
+        }
+      },
+      "block_order": [
+        "step_yXp74G",
+        "step_qqXL9x",
+        "step_TX4d77"
+      ],
+      "disabled": true,
+      "name": "ND Authenticity",
+      "settings": {
+        "image": "shopify://shop_images/image_07130275-93a8-4c04-8e6c-e370341fe97c.jpg",
+        "eyebrow": "",
+        "heading": "Genuine Dr. Pen. Verify It Yourself.",
+        "description": "Every Dr. Pen device we sell includes a security authentication code. Scratch the security label on the packaging and verify the code directly through Dr. Pen's authentication website.",
+        "button_label": "Verify Authenticity",
+        "button_link": ""
+      }
+    },
+    "cartridge_tabs_KYttAN": {
+      "type": "cartridge-tabs",
+      "blocks": {
+        "cartridge_type_QcRGwh": {
+          "type": "cartridge_type",
+          "settings": {
+            "tab_label": "12-Pin",
+            "name": "12-Pin Cartridge",
+            "description": "Designed for more targeted precision on smaller treatment areas.",
+            "depth": "Adjustable",
+            "frequency": " As Needed",
+            "downtime": "Varies",
+            "image": "shopify://shop_images/1.webp",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dr-pen-a1-a6-microneedling-cartridges"
+          }
+        },
+        "cartridge_type_wzbACt": {
+          "type": "cartridge_type",
+          "settings": {
+            "tab_label": "36-Pin",
+            "name": "36-Pin Cartridge",
+            "description": "A versatile option for balanced coverage and precision across common treatment areas.",
+            "depth": "Adjustable",
+            "frequency": "As Needed",
+            "downtime": "Varies",
+            "image": "shopify://shop_images/1.webp",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dr-pen-a1-a6-microneedling-cartridges"
+          }
+        },
+        "cartridge_type_qFLff9": {
+          "type": "cartridge_type",
+          "settings": {
+            "tab_label": "42-Pin",
+            "name": "42-Pin Cartridge",
+            "description": "A versatile option for balanced coverage and precision across common treatment areas.",
+            "depth": "Adjustable",
+            "frequency": "As Needed",
+            "downtime": "Varies",
+            "image": "shopify://shop_images/1.webp",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dr-pen-a1-a6-microneedling-cartridges"
+          }
+        },
+        "cartridge_type_ti4XFR": {
+          "type": "cartridge_type",
+          "settings": {
+            "tab_label": "Round Nano",
+            "name": "Round Nano",
+            "description": "Gentle surface-level application designed to enhance skincare absorption and support a smoother, refreshed-looking complexion.",
+            "depth": "Surface Level",
+            "frequency": "Regular Use",
+            "downtime": "None",
+            "image": "shopify://shop_images/1.webp",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dr-pen-a1-a6-microneedling-cartridges"
+          }
+        },
+        "cartridge_type_RtJ79z": {
+          "type": "cartridge_type",
+          "settings": {
+            "tab_label": "Nano Quare",
+            "name": "Nano Quare",
+            "description": "Gentle surface-level application designed to enhance skincare absorption and support a smoother, refreshed-looking complexion.",
+            "depth": "Surface Level",
+            "frequency": "Regular Use",
+            "downtime": "None",
+            "image": "shopify://shop_images/1.webp",
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/dr-pen-a1-a6-microneedling-cartridges"
+          }
+        }
+      },
+      "block_order": [
+        "cartridge_type_QcRGwh",
+        "cartridge_type_wzbACt",
+        "cartridge_type_qFLff9",
+        "cartridge_type_ti4XFR",
+        "cartridge_type_RtJ79z"
+      ],
+      "name": "ND Cartridge Tabs",
+      "settings": {
+        "eyebrow": "A1/A6 CARTRIDGE GUIDE",
+        "heading": "Choose the Right Cartridge for Your Routine.",
+        "description": "Different A1/A6 cartridges are designed for different skincare goals. Compare the options below to find the right fit for your routine."
+      }
+    },
+    "nd_steps_QdkqWj": {
+      "type": "nd-steps",
+      "blocks": {
+        "step_JFL9aF": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_py7seupy7seupy7s.jpg",
+            "label": "Step",
+            "title": "Prep & Cleanse.",
+            "text": "Start with clean, bare skin. No actives — just a gentle cleanse and a calm base."
+          }
+        },
+        "step_wmWtF6": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_xca551xca551xca5.jpg",
+            "label": "Step",
+            "title": "Select Your Cartridge & Treat.",
+            "text": "Choose the right cartridge for your goal, then treat with steady, guided passes across the skin."
+          }
+        },
+        "step_7L76Uk": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_8tclt38tclt38tcl.jpg",
+            "label": "Step",
+            "title": "Hydrate & Recover.",
+            "text": "Follow with a barrier-supportive serum. Let your skin rest and repair overnight."
+          }
+        }
+      },
+      "block_order": [
+        "step_JFL9aF",
+        "step_wmWtF6",
+        "step_7L76Uk"
+      ],
+      "disabled": true,
+      "name": "ND Steps",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "show_gift": true,
+        "gift_image": "shopify://shop_images/Gemini_Generated_Image_f28t0ff28t0ff28t.jpg",
+        "gift_label": "Complimentary Gift",
+        "gift_heading": "Complimentary Derma Stamp Included With Eligible Orders.",
+        "gift_text": "To support your skincare journey between treatments, we include a complimentary derma stamp to ensure you have everything you need for consistent, long-term skin maintenance."
+      }
+    },
+    "nd_testimonials_BLrgBT": {
+      "type": "nd-testimonials",
+      "blocks": {
+        "review_B8UyP9": {
+          "type": "review",
+          "settings": {
+            "review": "\"Solid device, quiet motor, and the cartridge lock is clean. Wish I'd started with the Results Bundle from day one.\"",
+            "name": "Jordan K",
+            "position": "Verified Buyer",
+            "image": "shopify://shop_images/image_5b8bcec2-fae3-46c9-b017-caf3d609f425.png"
+          }
+        },
+        "review_aiBqCz": {
+          "type": "review",
+          "settings": {
+            "review": "\"Complimentary Derma Stamp was a lovely touch. The whole experience felt considered — from the packaging to the aftercare notes.\"",
+            "name": "Priya S.",
+            "position": "Verified Buyer",
+            "image": "shopify://shop_images/image_5b8bcec2-fae3-46c9-b017-caf3d609f425.png"
+          }
+        },
+        "review_aYFizy": {
+          "type": "review",
+          "settings": {
+            "review": "\"Six weeks in and the difference in my skin texture is undeniable. The M8S feels genuinely professional — nothing like the cheap dupes I tried before.\"",
+            "name": "Alina R.",
+            "position": "Verified Buyer",
+            "image": "shopify://shop_images/image_5b8bcec2-fae3-46c9-b017-caf3d609f425.png"
+          }
+        },
+        "review_fFMdhY": {
+          "type": "review",
+          "settings": {
+            "review": "\"The depth dial makes a real difference. I feel in control the entire time, and the guidance from Nuovaderm made the routine easy to follow.\"",
+            "name": "Marcus T",
+            "position": "Verified Buyer",
+            "image": "shopify://shop_images/image_5b8bcec2-fae3-46c9-b017-caf3d609f425.png"
+          }
+        },
+        "review_iDHa6J": {
+          "type": "review",
+          "settings": {
+            "review": "\"Solid device, quiet motor, and the cartridge lock is clean. Wish I'd started with the Results Bundle from day one.\"",
+            "name": "Jordan K",
+            "position": "Verified Buyer",
+            "image": "shopify://shop_images/image_5b8bcec2-fae3-46c9-b017-caf3d609f425.png"
+          }
+        }
+      },
+      "block_order": [
+        "review_B8UyP9",
+        "review_aiBqCz",
+        "review_aYFizy",
+        "review_fFMdhY",
+        "review_iDHa6J"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "remove_bg": true,
+        "title": "The Nuovaderm Experience",
+        "subtitle": "Testimonies"
+      }
+    },
+    "nd_faq_home": {
+      "type": "nd-faq",
+      "blocks": {
+        "faq_hm01": {
+          "type": "faq",
+          "settings": {
+            "open": true,
+            "question": "What makes Nuovaderm products different?",
+            "answer": "Nuovaderm products are thoughtfully formulated with quality ingredients to support simple, effective skincare and body-care routines. Our formulas focus on hydration, nourishment, and healthy-looking skin, with options designed with sensitive skin in mind."
+          }
+        },
+        "faq_hm02": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Are Nuovaderm products suitable for sensitive skin?",
+            "answer": "Many Nuovaderm products are formulated with sensitive skin in mind, including gentle, fragrance-free options. Because every person’s skin is different, always review the ingredients and directions for the individual product and patch test before first use."
+          }
+        },
+        "faq_hm03": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "How do i choose the right Nuovaderm product for my skin?",
+            "answer": "Each product page explains the key ingredients, benefits, and recommended use to help you choose. If you’re unsure, contact us and we’ll be happy to help you find the best option for your skincare needs."
+          }
+        },
+        "faq_hm04": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What is microneedling?",
+            "answer": "Microneedling is a skincare technique that uses very fine needles to create tiny, controlled microchannels in the skin. This process supports the skin’s natural renewal response and is commonly used as part of a routine focused on improving the overall appearance and texture of the skin."
+          }
+        },
+        "faq_hm05": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What are the benefits of microneedling?",
+            "answer": "Microneedling can help improve the appearance of uneven texture, fine lines, enlarged-looking pores, uneven tone, and the appearance of acne scars. With appropriate use, it can help skin look smoother, firmer, and more refreshed over time."
+          }
+        },
+        "faq_hm06": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Does microneedling hurt?",
+            "answer": "Sensation varies depending on needle depth, treatment area, and individual sensitivity. Many people describe the feeling as prickling or scratching rather than pain, although deeper settings can feel more intense. Always follow the instructions provided with your device."
+          }
+        },
+        "faq_zF7Wkw": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Are your Dr. Pen products genuine?",
+            "answer": "Yes. Nuovaderm is an authorized distributor of genuine Dr. Pen products. Counterfeit and unauthorized Dr. Pen products exist in the marketplace, which is why authenticity matters. Our Dr. Pen devices can be verified using the unique security code provided on the packaging, giving you an additional way to confirm your product is genuine."
+          }
+        },
+        "faq_8aaPkJ": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "Which Dr. Pen cartridge do i need?",
+            "answer": "The correct cartridge depends on your Dr. Pen model and intended use. Compatibility information is provided on our product pages. If you’re unsure which cartridge to purchase, contact us and we’ll be happy to help you choose the correct one."
+          }
+        },
+        "faq_JQfgtY": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "When will my order ship?",
+            "answer": "Orders are dispatched the same day, with tracking information sent as soon as your order is on the way."
+          }
+        },
+        "faq_MXALrM": {
+          "type": "faq",
+          "settings": {
+            "open": false,
+            "question": "What if i’m not satisfied with my purchase?",
+            "answer": "Not completely satisfied? Return your purchase within 30 days for a full refund. We offer free returns and exchanges. If your order arrives damaged or defective, contact us at info@nuovadermbeauty.com, and we’ll make it right."
+          }
+        }
+      },
+      "block_order": [
+        "faq_hm01",
+        "faq_hm02",
+        "faq_hm03",
+        "faq_hm04",
+        "faq_hm05",
+        "faq_hm06",
+        "faq_zF7Wkw",
+        "faq_8aaPkJ",
+        "faq_JQfgtY",
+        "faq_MXALrM"
+      ],
+      "name": "ND FAQ",
+      "settings": {
+        "is_heading_h1": false,
+        "eyebrow": "FAQs",
+        "heading": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "nd_anatomy_gBcrDj",
+    "nd_authenticity_MFc4Ey",
+    "cartridge_tabs_KYttAN",
+    "nd_steps_QdkqWj",
+    "nd_testimonials_BLrgBT",
+    "nd_faq_home"
+  ]
+}

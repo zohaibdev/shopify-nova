@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "device_chooser": {
+      "type": "nd-device-compare",
+      "blocks": {
+        "device_m7": {
+          "type": "device",
+          "settings": {
+            "is_recommended": false,
+            "badge": "SIMPLE / BEGINNER",
+            "title": "Dr. Pen M7",
+            "description": "A straightforward option for someone who wants to keep things simple.",
+            "image": "shopify://shop_images/Gemini_Generated_Image_ou6bw0ou6bw0ou6b.jpg",
+            "primary_button_label": "View M7",
+            "secondary_button_label": "",
+            "primary_link": "shopify://products/dr-pen-m7-microneedling-pen",
+            "secondary_link": ""
+          }
+        },
+        "device_m8": {
+          "type": "device",
+          "settings": {
+            "is_recommended": true,
+            "badge": "Best All-Around",
+            "title": "Dr. Pen M8",
+            "description": "A versatile, popular option that gives you room to grow without making the process complicated.",
+            "image": "shopify://shop_images/Rectangle_33.png",
+            "primary_button_label": "View M8",
+            "secondary_button_label": "",
+            "primary_link": "shopify://products/dr-pen-m8-ultima-pro-microneedling-pen",
+            "secondary_link": ""
+          }
+        },
+        "device_m8s": {
+          "type": "device",
+          "settings": {
+            "is_recommended": false,
+            "badge": "UPGRADED HOME USE",
+            "title": "Dr. Pen M8S",
+            "description": "A step-up option for customers who want newer features and greater control.",
+            "image": "shopify://shop_images/product-2.png",
+            "primary_button_label": "View M8S",
+            "secondary_button_label": "",
+            "primary_link": "shopify://products/dr-pen-m8s-auto-microneedling-pen",
+            "secondary_link": ""
+          }
+        },
+        "device_a6": {
+          "type": "device",
+          "settings": {
+            "is_recommended": false,
+            "badge": " A-SERIES ALTERNATIVE",
+            "title": "Dr. Pen A6 / A6S",
+            "description": "Reliable A-Series options for customers who prefer this device family.",
+            "image": "shopify://shop_images/Gemini_Generated_Image_74x03574x03574x0.jpg",
+            "primary_button_label": "View A6",
+            "secondary_button_label": "View A6S",
+            "primary_link": "shopify://products/dr-pen-a6-microneedling-pen",
+            "secondary_link": "shopify://products/dr-pen-a6s-microneedling-device"
+          }
+        },
+        "device_a11": {
+          "type": "device",
+          "settings": {
+            "is_recommended": false,
+            "badge": "PROFESSIONAL",
+            "title": "Dr. Pen A11",
+            "description": "Advanced professional-use option for trained practitioners.",
+            "image": "shopify://shop_images/Dr._Pen_A11.jpg",
+            "primary_button_label": "View A11",
+            "secondary_button_label": "",
+            "primary_link": "shopify://collections/dr-pen",
+            "secondary_link": ""
+          }
+        },
+        "device_h3": {
+          "type": "device",
+          "settings": {
+            "is_recommended": false,
+            "badge": "SPECIALTY ",
+            "title": "Dr. Pen Hydra H3",
+            "description": "A specialty option for customers looking for a different type of skincare device.",
+            "image": "shopify://shop_images/Gemini_Generated_Image_w36x4fw36x4fw36x.jpg",
+            "primary_button_label": "View Hydra H3",
+            "secondary_button_label": "",
+            "primary_link": "shopify://products/dr-pen-hydra-h3-microneedling-device",
+            "secondary_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "device_m7",
+        "device_m8",
+        "device_m8s",
+        "device_a6",
+        "device_a11",
+        "device_h3"
+      ],
+      "name": "ND Device Compare",
+      "settings": {
+        "versions": "light",
+        "columns_desktop": "3",
+        "is_heading_h1": true,
+        "eyebrow": "",
+        "heading": "Which Dr. Pen Is Right for You?",
+        "description": "",
+        "other_products_text": "Still unsure? Start with the M8",
+        "button_label": "View M8",
+        "button_link": "shopify://products/dr-pen-m8-ultima-pro-microneedling-pen",
+        "secondary_footer_text": "Shop All Dr. Pen Devices",
+        "secondary_button_label": "Shop All Dr. Pen",
+        "secondary_button_link": "shopify://collections/dr-pen"
+      }
+    }
+  },
+  "order": [
+    "device_chooser"
+  ]
+}
